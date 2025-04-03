@@ -1,6 +1,16 @@
 {
   "ppc": [
     {
+      "section": "299",
+      "title": "Culpable homicide",
+      "text": "Whoever causes death by doing an act with the intention of causing death, or with the intention of causing such bodily injury as is likely to cause death, or with the knowledge that he is likely by such act to cause death, commits the offence of culpable homicide."
+    },
+    {
+      "section": "300",
+      "title": "Murder",
+      "text": "Except in the cases hereinafter excepted, culpable homicide is murder, if the act by which the death is caused is done with the intention of causing death, or..."
+    },
+    {
       "section": "302",
       "title": "Punishment for murder",
       "text": "Whoever commits murder shall be punished with death, or imprisonment for life, and shall also be liable to fine."
@@ -9,16 +19,41 @@
       "section": "376",
       "title": "Punishment for rape",
       "text": "Whoever commits rape shall be punished with imprisonment of either description for a term which shall not be less than ten years or more than twenty-five years, and shall also be liable to fine."
+    },
+    {
+      "section": "420",
+      "title": "Cheating and dishonestly inducing delivery of property",
+      "text": "Whoever cheats and thereby dishonestly induces the person deceived to deliver any property to any person... shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine."
     }
   ],
   "crpc": [
     {
       "section": "154",
       "title": "FIR registration",
-      "text": "Every information relating to the commission of a cognizable offence shall be reduced to writing by the officer in charge of the police station."
+      "text": "Every information relating to the commission of a cognizable offence, if given orally to an officer in charge of a police station, shall be reduced to writing by him or under his direction, and be read over to the informant."
+    },
+    {
+      "section": "161",
+      "title": "Examination of witnesses by police",
+      "text": "Any police officer making an investigation under this Chapter may examine orally any person supposed to be acquainted with the facts and circumstances of the case."
+    },
+    {
+      "section": "164",
+      "title": "Recording of confessions and statements",
+      "text": "Any Metropolitan Magistrate or Judicial Magistrate may, whether or not he has jurisdiction in the case, record any confession or statement made to him in the course of an investigation under this Chapter."
     }
   ],
   "constitution": [
+    {
+      "article": "4",
+      "title": "Right of individuals to be dealt with in accordance with law",
+      "text": "To enjoy the protection of law and to be treated in accordance with law is the inalienable right of every citizen, wherever he may be, and of every other person for the time being within Pakistan."
+    },
+    {
+      "article": "9",
+      "title": "Security of person",
+      "text": "No person shall be deprived of life or liberty save in accordance with law."
+    },
     {
       "article": "25",
       "title": "Equality of citizens",
