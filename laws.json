@@ -1,0 +1,28 @@
+{
+  "ppc": [
+    {
+      "section": "302",
+      "title": "Punishment for murder",
+      "text": "Whoever commits murder shall be punished with death, or imprisonment for life, and shall also be liable to fine."
+    },
+    {
+      "section": "376",
+      "title": "Punishment for rape",
+      "text": "Whoever commits rape shall be punished with imprisonment of either description for a term which shall not be less than ten years or more than twenty-five years, and shall also be liable to fine."
+    }
+  ],
+  "crpc": [
+    {
+      "section": "154",
+      "title": "FIR registration",
+      "text": "Every information relating to the commission of a cognizable offence shall be reduced to writing by the officer in charge of the police station."
+    }
+  ],
+  "constitution": [
+    {
+      "article": "25",
+      "title": "Equality of citizens",
+      "text": "All citizens are equal before law and are entitled to equal protection of law."
+    }
+  ]
+}
