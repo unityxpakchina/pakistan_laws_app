@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakistan Penal Code</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-mode">
+    <header>
+        <div class="flag-stripes">
+            <div class="green"></div>
+            <div class="white"></div>
+            <div class="green"></div>
+        </div>
+        <h1>PAKISTAN PENAL CODE</h1>
+        
+        <!-- Search Box -->
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search PPC sections...">
+            <button id="searchBtn">Search</button>
+        </div>
+        
+        <!-- Dark Mode Toggle -->
+        <button id="darkModeToggle">🌙 Dark Mode</button>
+    </header>
+
+    <main id="lawsContainer">
+        <!-- Laws will be loaded from JSON via JavaScript -->
+    </main>
+
+    <script src="script.js"></script>
+    <script>
+        // Load PPC laws
+        fetch('laws.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('lawsContainer');
+                data.ppc.forEach(law => {
+                    container.innerHTML += `
+                        <div class="law-card">
+                            <h2>Section ${law.section}: ${law.title}</h2>
+                            <p>${law.text}</p>
+                        </div>
+                    `;
+                });
+            });
+    </script>
+</body>
+</html>
