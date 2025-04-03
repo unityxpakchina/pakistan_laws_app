@@ -126,3 +126,56 @@ footer {
         font-size: 2rem;
     }
 }
+/* ===== NEW DARK MODE STYLES ===== */
+.dark-mode {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --card-bg: #1e1e1e;
+    --shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.light-mode {
+    --bg-color: #f5f5f5;
+    --text-color: #333333;
+    --card-bg: #ffffff;
+    --shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* ===== NEW SEARCH BOX ===== */
+.search-container {
+    margin: 20px 0;
+    display: flex;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#searchInput {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid var(--green);
+    border-radius: 5px 0 0 5px;
+}
+
+#searchBtn {
+    background: var(--green);
+    color: white;
+    border: none;
+    padding: 0 20px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+/* ===== DARK MODE TOGGLE ===== */
+#darkModeToggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: var(--green);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 100;
+}
